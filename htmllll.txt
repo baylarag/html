@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+
+     </header>
+     <main>
+        
+    
+       <section>
+        <h1 align ="center">Employyee Interests Survey form</h1>
+           <form action="#">
+               <div>
+                <label  for="Name"> Enter your name</label>
+                <input type="text" id="Name">
+               </div>
+               <br>
+               <div>
+                <label for="Surname">Enter your departament:</label>
+                <input type="text" id="Surname">
+               </div>
+               <br>
+               <div>
+                   <label for="textarea">Tell us a little about yourself:</label>
+                   <textarea id="textarea" cols="40" rows="6"></textarea>
+               </div>
+               <br>
+               <div>
+                <label for="radio"> Do you exercise at home ?</label>
+                   <input type="radio"  id="radio" >
+                   <label for="radio" >yes</label>
+                   <input type="radio"  id="radio" >
+                   <label for="radio" >No</label>
+
+               </div>
+               <br>
+               <div>
+            <label for="checkbox">How do you like to read about your favorite topics?</label>
+            <br>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Books</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Online resources</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Phone apps</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Magazines</label>      
+               </div>
+             <br>
+             <div>
+                 <label for="select">What genre of movies do you like?</label>
+                 <select id="select">
+                     <option value="Comedy">Comedy</option>
+                     <option value="Action">Action</option>
+                     <option value="Drama">Drama</option>
+                     
+
+
+                 </select>
+             </div>
+             
+             <br>
+             <input value="Submit from" type="submit">
+           </form>
+       </section>
+
+        </section>
+     </main>
+     <footer>
+
+     </footer>
+</body>
+</html>
+
+
